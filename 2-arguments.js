@@ -8,5 +8,5 @@ function arg_3(name, age){
   console.log("Arguments found")
 }
 arg_1();
-arg_2("John")
-arg_3("Max", 20)
+arg_2("Best")
+arg_3("Best", "School")
