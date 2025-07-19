@@ -1,15 +1,11 @@
-function arg_1(){
-  console.log("No argument");
-}
-arg_1()
-function arg_2(name){
-  console.log("Argument found")
-}
-arg_2("Best")
-function arg_3(name, age, color){
-  console.log("Arguments found")
-}
-arg_3("Best", "School", "Tema")
+const args = process.argv.slice(2); // Exclude node and script path
 
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log("Arguments found");
+}
 
 
