@@ -1,9 +1,9 @@
-const args = process.argv.slice(2); // Exclude node and script path
+const args = ["Hello", "World"]; 
 
-if (args.value = 0) {
-  console.log("No argument");
-} else if (args.value = 1) {
-  console.log("Argument found");
-} else {
-  console.log("Arguments found");
-}
+  if (!args[0]) {
+    console.log("No argument");
+  } else if (args[0] && !args[1]) {
+    console.log("Argument found");
+  } else {
+    console.log("Arguments found");
+  }
